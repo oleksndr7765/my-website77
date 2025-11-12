@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Відгуки — LAWWAY</title>
+<link rel="icon" href="assets/favicon.jpg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.header .brand img{width:56px;height:56px}
+.container{max-width:1100px;margin:0 auto;padding:28px}
+
+/* Нові стилі для секції відгуків */
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+.testimonial.card {
+    position: relative;
+    padding: 30px;
+    background-color: #3e3f40; /* Світлий фон для карток */
+    border-left: 5px solid #0b1f94; /* Кольорова смуга зліва */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+.testimonial blockquote {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 15px 0 20px 0;
+    padding: 0;
+    font-style: italic;
+    color: #ffffff;
+    position: relative;
+}
+.testimonial blockquote::before {
+    content: "“"; /* Декоративні лапки зверху */
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: -25px;
+    left: -10px;
+    font-size: 4em;
+    color: rgba(31, 139, 255, 0.38); /* Прозорий колір, щоб не відволікати */
+    line-height: 1;
+}
+.testimonial strong {
+    display: block;
+    font-weight: 600;
+    color: #256eff;
+    margin-top: 10px;
+    font-size: 1.05em;
+}
+.testimonial .stars {
+    font-size: 1.5em; /* Збільшуємо розмір зірок */
+    color: #ffc107; /* Жовтий/золотий колір */
+    margin-bottom: 10px;
+    display: block;
+}
+.testimonial .client-info {
+    font-size: 0.9em;
+    color: #cacdd0; /* Приглушений колір для посади/типу клієнта */
+    display: block;
+}
+</style>
+</head>
+<body>
+  <div class="container" style="position:relative;z-index:2">
+    <header class="header fade-in" style="opacity:0">
+      <div class="brand">
+        <a class="logo-link" href="index.html" aria-label="LAWWAY головна">
+          <img class="logo-small" src="assets/telegram-cloud-photo-size-2-5235532853309804159-x.jpg" alt="LAWWAY логотип">
+        </a>
+        <div style="margin-left:8px">
+          <div style="font-family:Poppins,Arial;font-weight:700">LAWWAY</div>
+          <div style="font-size:12px;color:var(--muted)">Юридичний супровід • Літинський О.О.</div>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Навігація">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про мене</a>
+        <a href="services.html">Послуги</a>
+        <a href="reviews.html">Відгуки</a>
+        <a href="pricing.html">Ціни</a>
+        <a href="contact.html">Контакти</a>
+      </nav>
+    </header>
+
+    
+<main>
+  <section class="section fade-in" style="opacity:0">
+    <h1>Відгуки клієнтів</h1>
+    <p style="color:var(--muted)">Декілька щирих відгуків від клієнтів, які співпрацювали з LAWWAY та Літинським О.О.</p>
+    
+    <div class="testimonials">
+      
+      <div class="testimonial card">
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+        <blockquote>"Професійний підхід та чітка стратегія. Допомогли підготувати контракт, що убезпечив нашу компанію від ризиків."</blockquote>
+        <strong>Олена К.</strong>
+        <span class="client-info">підприємець</span>
+      </div>
+      
+      <div class="testimonial card">
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+        <blockquote>"Зручна робота в команді: аналіз, рекомендації та операційна підтримка. Результат — успішно закрита угода."</blockquote>
+        <strong>ТОВ «Інновація»</strong>
+        <span class="client-info">Керівництво компанії</span>
+      </div>
+      
+      <div class="testimonial card">
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+        <blockquote>"LAWWAY допомогли мінімізувати ризики при міжнародній угоді. Зручно, швидко та професійно."</blockquote>
+        <strong>Сергій П.</strong>
+        <span class="client-info">CEO</span>
+      </div>
+      
+      <div class="testimonial card">
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+        <blockquote>"Отримала детальні рекомендації та супровід під час реєстрації — все пройшло без затримок."</blockquote>
+        <strong>Марія Л.</strong>
+        <span class="client-info">ФОП</span>
+      </div>
+      
+      <div class="testimonial card">
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+        <blockquote>"Швидке реагування та практичні поради. Окрема подяка за допомогу у переговорах з великим партнером."</blockquote>
+        <strong>Іван Т.</strong>
+        <span class="client-info">власник бізнесу</span>
+      </div>
+      
+      <div class="testimonial card">
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+        <blockquote>"Робота пройшла на вищому рівні — професіоналізм та відповідальність у кожному кроці."</blockquote>
+        <strong>Оксана Г.</strong>
+        <span class="client-info">HR-спеціаліст</span>
+      </div>
+      
+    </div>
+  </section>
+</main>
+
+
+    <footer class="footer fade-in" style="opacity:0">
+      © LAWWAY — FEMP 3-13 Litynskyi — Всі права захищені.
+    </footer>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
